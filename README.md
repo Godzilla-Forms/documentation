@@ -23,8 +23,8 @@ forms.</p>
 
 ## Links
 
-- [Documentation](https://godzilla-forms-doc.netlify.app/#/)
-- [Form Builder](https://godzilla-forms.netlify.app/#/)
+- [Documentation](https://doc.godzilla-forms.io)
+- [Form Builder](https://godzilla-forms.io)
 
 
 ## Features

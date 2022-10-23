@@ -3,9 +3,9 @@
   - [Quick start](quickstart.md)
 
 - Builder
-
-  - [Form Elements](builder-form-elements.md)
+  - [Form Builder & Configurations](form-builder.md)
   - [Configurations](builder-configurations.md)
+  - [For Elements](form-elements.md)
 
 
 - Parser

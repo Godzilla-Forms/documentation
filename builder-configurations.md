@@ -8,7 +8,7 @@ explain each element configuration in the following sections.
 
 But first, let's take a look at the configuration structure and what we have in Godzilla.
 
-## General Configuration
+## General
 
 | Key         | Type   | Required | Default Value         | Note                                                                                                                                                     |
 |-------------|--------|----------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ But first, let's take a look at the configuration structure and what we have in 
 | style       | json   | yes      | {}                    | See [Style Configuration](#style-configuration)                                                                                                          |
 | flow        | json   | yes      | {}                    | See [Flow Configuration](#flow-configuration)                                                                                                            |
 
-## Value Configuration
+## Value
 
 This will be used to set the default value for the element with some exceptions for some elements that have more than
 one option like dropdown and radio group; `valueOptions`, `serviceName` and `valueSource` are used to set the default
@@ -39,7 +39,7 @@ the [Options Configuration](#options-configuration) section.
 | serviceName  | string                       | no       | null          |                              |
 | valueSource  | string                       | no       | "static"      | can be `static` or `service` |
 
-## Validators Configuration
+## Validators
 
 This will be used to set the validation rules for the element, the validation rules are:
 
@@ -54,7 +54,7 @@ This will be used to set the validation rules for the element, the validation ru
 | maxSize      | number  | no       |               | Only used for file input, more details [File Input]() |
 | allowedTypes | number  | no       |               | Only used for file input, more details [File Input]() |
 
-## Errors Configuration
+## Errors
 
 This will be used to show the errors messages for the element if there's any errors are enabled by the validator, the
 key is the error type and the value is the error message, can be left empty to use the default error message.
@@ -80,3 +80,15 @@ for example:
 | maxLength | string | no       | null          |
 | maxSize   | string | no       | null          | 
 
+
+## Options
+**TODO**
+
+## Style
+
+**TODO**
+
+
+## Flow
+
+**TODO**

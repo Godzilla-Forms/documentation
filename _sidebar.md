@@ -3,7 +3,7 @@
   - [Quick start](quickstart.md)
 
 - Builder
-  - [Form Builder & Configurations](form-builder.md)
+  - [Form Builder](form-builder.md)
   - [Configurations](builder-configurations.md)
   - [For Elements](form-elements.md)
 
@@ -14,4 +14,6 @@
   - [Services](parser-services.md)
   - [Customisations](parser-customisations.md)
 
+
+- [API Reference](api-reference.md)
 - [Changelog](changelog.md)

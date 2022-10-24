@@ -1,14 +1,14 @@
-
 # Configurations
+
 **WIP**
 
 All the form elements are shared the same configuration structure, but some of them are optional and some of them are
-not, we will
-explain each element configuration in the following sections.
-
+not, we will explain each element configuration in the [following sections](form-elements.md).
 But first, let's take a look at the configuration structure and what we have in Godzilla.
 
 ## General
+
+This is the root of the configuration, it contains the following elements:
 
 | Key         | Type   | Required | Default Value         | Note                                                                                                                                                     |
 |-------------|--------|----------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,8 +28,8 @@ But first, let's take a look at the configuration structure and what we have in 
 ## Value
 
 This will be used to set the default value for the element with some exceptions for some elements that have more than
-one option like dropdown and radio group; `valueOptions`, `serviceName` and `valueSource` are used to set the default
-for that's elements. more details about these options will be explained in
+one value like dropdown and radio group; `valueOptions`, `serviceName` and `valueSource` are used to set the default
+values for that's elements. more details about these options will be explained in
 the [Options Configuration](#options-configuration) section.
 
 | Key          | Type                         | Required | Default Value | Note                         |
@@ -80,14 +80,17 @@ for example:
 | maxLength | string | no       | null          |
 | maxSize   | string | no       | null          | 
 
-
 ## Options
-**TODO**
+
+This will be used to set the options for the element, the options are:
+
+```json
+
+```
 
 ## Style
 
 **TODO**
-
 
 ## Flow
 

@@ -3,13 +3,12 @@
   - [Quick start](quickstart.md)
 
 - Builder
-  - [Form Builder](form-builder.md)
+  - [Quick start](form-builder.md)
   - [Configurations](builder-configurations.md)
   - [For Elements](form-elements.md)
 
 
 - Parser
-
   - [Quick start](parser-quickstart.md)
   - [Services](parser-services.md)
   - [Customisations](parser-customisations.md)
